@@ -1,4 +1,8 @@
 {
   "name": "cart",
-  "app_id": "f6d23fab"
+  "app_id": "f6d23fab",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
