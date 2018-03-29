@@ -2,13 +2,13 @@ angular.module('app.services', [])
 
 
 .factory('fireBaseData', function($firebase) {
-	var ref = new Firebase("https://projectId.firebaseio.com/"),
-    refCart = new Firebase("https://projectId.firebaseio.com/cart"),
-    refUser = new Firebase("https://projectId.firebaseio.com/users"),
-    refCategory = new Firebase("https://projectId.firebaseio.com/category"),
-    refOrder = new Firebase("https://projectId.firebaseio.com/orders"),
-    refFeatured = new Firebase("https://projectId.firebaseio.com/featured"),
-    refMenu = new Firebase("https://projectId.firebaseio.com/menu");
+	var ref = new Firebase("https://shopcart-8686.firebaseio.com/"),
+    refCart = new Firebase("https://shopcart-8686.firebaseio.com/cart"),
+    refUser = new Firebase("https://shopcart-8686.firebaseio.com/users"),
+    refCategory = new Firebase("https://shopcart-8686.firebaseio.com/category"),
+    refOrder = new Firebase("https://shopcart-8686.firebaseio.com/orders"),
+    refFeatured = new Firebase("https://shopcart-8686.firebaseio.com/featured"),
+    refMenu = new Firebase("https://shopcart-8686.firebaseio.com/menu");
   return {
     ref: function() {
       return ref;
